@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" fill="none">
+  <rect width="600" height="500" rx="16" fill="#1C1829"/>
+  <!-- Garage ceiling and warm sunset neon ambient -->
+  <path d="M0 0 L600 0 L600 220 L0 220 Z" fill="#D96839"/>
+  <rect x="60" y="30" width="480" height="15" rx="3" fill="#B24722"/>
+  <rect x="60" y="65" width="480" height="15" rx="3" fill="#B24722"/>
+  <rect x="60" y="100" width="480" height="15" rx="3" fill="#B24722"/>
+  <rect x="60" y="135" width="480" height="15" rx="3" fill="#B24722"/>
+  <circle cx="300" cy="100" r="28" fill="#43221A"/>
+  
+  <!-- Car cockpit / windshield interior frame -->
+  <path d="M0 500 L80 260 L520 260 L600 500 Z" fill="#2A2242"/>
+  <!-- Dashboard & Steering wheel -->
+  <path d="M220 500 L380 500 L360 410 L240 410 Z" fill="#181326"/>
+  <ellipse cx="300" cy="400" rx="110" ry="70" fill="none" stroke="#0F0C1B" stroke-width="28"/>
+  <rect x="250" y="380" width="100" height="40" rx="10" fill="#0F0C1B"/>
+  
+  <!-- Driver Silhouette from rear-left -->
+  <path d="M50 500 C50 360, 90 320, 160 300 L250 300 C290 320, 310 380, 300 500 Z" fill="#0F0C1B"/>
+  <!-- Driver Head & Neck -->
+  <ellipse cx="200" cy="245" rx="42" ry="50" fill="#0F0C1B"/>
+  <path d="M170 230 C170 190, 210 185, 235 200 C240 220, 240 250, 235 265 Z" fill="#D96839" opacity="0.85"/>
+  <rect x="180" y="270" width="40" height="40" fill="#0F0C1B"/>
+</svg>

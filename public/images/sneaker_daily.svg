@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" fill="none">
+  <!-- Modern Clean White Sneaker -->
+  <path d="M15 65 C25 60, 50 62, 80 50 C110 38, 125 45, 135 60 C145 70, 150 78, 140 82 L15 82 C10 82, 8 70, 15 65 Z" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="2"/>
+  <!-- Sole -->
+  <path d="M10 82 C10 82, 30 92, 80 92 C130 92, 150 84, 150 82 L140 76 L15 76 Z" fill="#0F172A"/>
+  <!-- Swoosh / Stripe Accent -->
+  <path d="M45 66 C70 66, 110 50, 125 58 C105 66, 75 75, 50 72 Z" fill="#000000"/>
+  <!-- Laces -->
+  <line x1="85" y1="46" x2="95" y2="52" stroke="#64748B" stroke-width="2"/>
+  <line x1="92" y1="42" x2="102" y2="48" stroke="#64748B" stroke-width="2"/>
+  <line x1="99" y1="38" x2="109" y2="44" stroke="#64748B" stroke-width="2"/>
+</svg>

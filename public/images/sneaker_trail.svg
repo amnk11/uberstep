@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" fill="none">
+  <!-- Rugged Trail Sneaker / Boot -->
+  <path d="M18 55 C25 45, 55 50, 80 40 C105 30, 120 32, 130 45 C140 58, 148 72, 140 78 L15 78 C10 78, 12 65, 18 55 Z" fill="#334155"/>
+  <!-- Deep lug trail sole -->
+  <path d="M10 78 L145 78 L142 92 C115 94, 45 94, 12 92 Z" fill="#1E293B"/>
+  <rect x="25" y="88" width="8" height="5" rx="1" fill="#EAB308"/>
+  <rect x="45" y="88" width="8" height="5" rx="1" fill="#EAB308"/>
+  <rect x="65" y="88" width="8" height="5" rx="1" fill="#EAB308"/>
+  <rect x="85" y="88" width="8" height="5" rx="1" fill="#EAB308"/>
+  <rect x="105" y="88" width="8" height="5" rx="1" fill="#EAB308"/>
+  <rect x="125" y="88" width="8" height="5" rx="1" fill="#EAB308"/>
+  <!-- Reinforcements -->
+  <path d="M18 55 C30 65, 45 72, 60 74 L25 78 Z" fill="#0F172A"/>
+  <path d="M110 50 C125 60, 135 70, 140 78 L115 78 Z" fill="#0F172A"/>
+</svg>

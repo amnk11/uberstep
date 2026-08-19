@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100" fill="none">
+  <!-- Aerodynamic Racing Sneaker -->
+  <path d="M12 60 C25 50, 60 52, 90 35 C115 22, 132 35, 142 55 C148 65, 152 75, 145 80 L12 80 C8 80, 6 68, 12 60 Z" fill="#FF5722"/>
+  <!-- Sole with carbon plate curve -->
+  <path d="M8 80 C8 80, 35 94, 85 94 C135 94, 155 82, 155 80 L145 74 L12 74 Z" fill="#FFFFFF" stroke="#FF5722" stroke-width="2"/>
+  <path d="M30 86 L140 86" stroke="#000000" stroke-width="4" stroke-linecap="round"/>
+  <!-- Laces & Cyber accents -->
+  <path d="M50 60 C75 58, 115 40, 130 52" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="105" cy="40" r="3" fill="#FACC15"/>
+</svg>
