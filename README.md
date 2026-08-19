@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# UberStep 👟
 
-## Getting Started
+UberStep is a creative reimagining of **Uber as a premium sneaker and footwear brand**.
 
-First, run the development server:
+This project was built as part of a landing page assignment where a well-known brand had to be completely reimagined into an opposite product category while preserving its recognizable design language and visual identity.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[View Live Website](https://uberstep.vercel.app)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💡 About the Project
 
-## Learn More
+**UberStep** takes the familiar experience of Uber and transforms it into a premium sneaker shopping experience.
 
-To learn more about Next.js, take a look at the following resources:
+Instead of transportation, UberStep focuses on **movement, comfort, lifestyle, and performance footwear**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The idea was to preserve the underlying layout, visual hierarchy, spacing, and interaction patterns while completely changing the product and purpose.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Core Concept
 
-## Deploy on Vercel
+> **Uber → UberStep**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+A transportation platform reimagined as a sneaker brand.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ✨ Features
+
+- Fully responsive single-page landing page
+- Desktop, tablet, and mobile layouts
+- Uber-inspired visual language
+- Premium sneaker-focused product presentation
+- Product selection interface
+- Responsive image layouts
+- Clean and minimal UI
+- High-contrast calls to action
+- Reusable React components
+- Mobile-first responsive behavior
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js
+- **Library:** React
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+
+---
+
+## 🎨 Design Approach
+
+The design takes inspiration from Uber's clean and highly functional interface while adapting it to a completely different product category.
+
+The project focuses on:
+
+- Strong typography
+- Minimal black and white visual language
+- Generous whitespace
+- Clear content hierarchy
+- Rounded UI elements
+- High-contrast CTAs
+- Product-focused layouts
+- Responsive design
+
+The original transportation-focused experience has been transformed into a sneaker shopping journey.
+
+---
+
+## 📁 Project Structure
+
+```text
+uberstep/
+├── app/
+│   ├── components/
+│   │   ├── AccountSection.tsx
+│   │   ├── AlternatingStory.tsx
+│   │   ├── AppDownloadSection.tsx
+│   │   ├── CompareSection.tsx
+│   │   ├── Disclaimers.tsx
+│   │   ├── ExploreSection.tsx
+│   │   ├── Footer.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── PromoBanner.tsx
+│   │   └── ReserveSection.tsx
+│   │
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── public/
+│   └── images/
+│       ├── business_campus.svg
+│       ├── city_getaway.jpg
+│       ├── collective_earning.svg
+│       ├── compare_map.svg
+│       ├── hero_luggage.jpg
+│       ├── inside_garage.svg
+│       ├── login_duo.svg
+│       ├── qr_code.svg
+│       ├── reserve_planner.svg
+│       ├── sneaker_daily.svg
+│       ├── sneaker_reserve.svg
+│       ├── sneaker_speed.svg
+│       └── sneaker_trail.svg
+│
+├── .gitignore
+├── AGENTS.md
+├── README.md
+├── bun.lock
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+└── tsconfig.json
