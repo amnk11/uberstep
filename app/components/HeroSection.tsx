@@ -5,8 +5,9 @@ import Image from "next/image";
 import { Navigation, Clock, Footprints, ChevronDown } from "lucide-react";
 
 export default function HeroSection() {
-  const [pickup, setPickup] = useState("Pickup location");
-  const [dropoff, setDropoff] = useState("Dropoff location");
+  // 1. Updated state initial values
+  const [pickup, setPickup] = useState("");
+  const [dropoff, setDropoff] = useState("");
 
   return (
     <section className="w-full bg-white pt-6 pb-6 md:pt-10 md:pb-16">
@@ -54,7 +55,7 @@ export default function HeroSection() {
               {/* Vertical connecting line */}
               <div className="absolute left-[24px] top-[26px] bottom-[26px] w-[1.5px] bg-neutral-700 pointer-events-none" />
 
-              {/* Input 1: Pickup */}
+              {/* Input 1: Size (Previously Pickup) */}
               <div className="relative flex items-center rounded-xl bg-[#f3f3f3] px-4 py-3.5 transition focus-within:bg-[#e9e9e9] focus-within:ring-2 focus-within:ring-black">
                 <div className="mr-3.5 flex h-4 w-4 items-center justify-center">
                   <div className="h-3 w-3 rounded-full border-[2.5px] border-black bg-white flex items-center justify-center">
@@ -65,13 +66,13 @@ export default function HeroSection() {
                   type="text"
                   value={pickup}
                   onChange={(e) => setPickup(e.target.value)}
-                  placeholder="Pickup location"
+                  placeholder="Choose your size" // 2. Updated placeholder
                   className="w-full bg-transparent text-sm font-medium text-black placeholder-neutral-500 outline-none"
                 />
                 <Navigation className="h-4 w-4 text-black shrink-0 fill-current rotate-45" />
               </div>
 
-              {/* Input 2: Dropoff */}
+              {/* Input 2: Style (Previously Dropoff) */}
               <div className="relative flex items-center rounded-xl bg-[#f3f3f3] px-4 py-3.5 transition focus-within:bg-[#e9e9e9] focus-within:ring-2 focus-within:ring-black">
                 <div className="mr-3.5 flex h-4 w-4 items-center justify-center">
                   <div className="h-3 w-3 bg-black flex items-center justify-center">
@@ -82,7 +83,7 @@ export default function HeroSection() {
                   type="text"
                   value={dropoff}
                   onChange={(e) => setDropoff(e.target.value)}
-                  placeholder="Dropoff location"
+                  placeholder="Choose your style" // 3. Updated placeholder
                   className="w-full bg-transparent text-sm font-medium text-black placeholder-neutral-500 outline-none"
                 />
               </div>
@@ -94,7 +95,7 @@ export default function HeroSection() {
                 href="#compare"
                 className="inline-flex items-center justify-center rounded-lg bg-black px-6 py-3 text-sm font-medium text-white transition hover:bg-neutral-800 cursor-pointer"
               >
-                See prices
+                Shop sneakers {/* 4. Updated CTA text */}
               </a>
 
               <a
@@ -150,5 +151,3 @@ export default function HeroSection() {
     </section>
   );
 }
-
-
